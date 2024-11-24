@@ -1,4 +1,5 @@
 def fun(n):
+    # Convert number to binary and remove "0b" prefix
     bin_rep = bin(n)[2:]
 
     max_gap = 0  # Max gap length
